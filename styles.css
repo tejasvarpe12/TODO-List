@@ -1,0 +1,68 @@
+body {
+    margin: 20px;
+    background-image: linear-gradient(to right, rgba(24, 23, 23, 0), rgb(31, 47, 87));
+  
+  }
+  
+  .header {
+    text-align: center;
+    color: rgb(248, 246, 250);
+  }
+  
+  .main {
+    margin-top: 20px;
+    
+  }
+
+  #todoInput{
+    border-radius: 2px;
+    width: 50vh;
+  }
+  
+  #button-addon2{
+    background-color: rgb(85, 80, 116);
+    font-weight: 600;
+
+  }
+
+  #clearBtn {
+    float: right;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  #todo-list-box{
+    width: 500vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+  hr{
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+    
+  }
+  
+  ul li {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 10px;
+    
+  }
+  
+  ul li input {
+    margin-right: 10px;
+  }
+  
+  ul li.completed label {
+    text-decoration: line-through;
+  }
+  
